@@ -1,0 +1,176 @@
+*{
+  margin: 0;
+}
+
+html{
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #0F0F0F;
+  padding: 50px 0px;
+}
+
+.container {
+  background-color: #6F7C80;
+  padding: 50px 0px;
+}
+
+header {
+  background-color: #0F0F0F;
+  color:white;
+  padding: 2em 10em;
+}
+
+header h1{
+  font-size: 4rem;
+  text-align: center;
+}
+
+.container {
+  width: 60rem;
+  margin: 0 auto;
+}
+
+section article {
+  text-align: center;
+}
+section article h2 {
+  color: #D4D4D4;
+  font-size: 2rem;
+  margin: 3rem 5rem 1rem 5rem;
+  background-color: #2B2B2B;
+  border-radius: 2rem;
+  padding: 0.5rem;
+}
+
+article p {
+  font-size: 1.3rem;
+}
+
+.yo{
+  border-radius: 50rem;
+  width: 200px;
+}
+
+.logo {
+  margin: 2.3rem ;
+  padding: 5px;
+  border-radius: 25px;
+}
+
+.logo2  {
+  margin: 2rem ;
+  padding: 5px;
+  border-radius: 25px;
+}
+
+.logo3 {
+  margin: 2rem ;
+  padding: 12px;
+  border-radius: 15px;
+}
+
+.yt {
+  border-radius: 5rem;
+}
+
+form {
+  width: 450px;
+  margin:auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 10px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+input, textarea{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border:none;
+}
+
+textarea{
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+#boton{
+  background: black;
+  color: white;
+  padding: 20px;
+}
+
+#boton:hover {
+  cursor: pointer;
+}
+
+footer {
+  width: 100vw;
+  padding: 1rem;
+  top: 0;
+  left: 0;
+  text-align: center;
+  color: black;
+  background-color: white;
+}
+
+nav {
+  position: fixed;
+  background-color: #0F0F0F;
+  height: 60px;
+  width: 100vw;
+  top: 0;
+  left: 0;
+}
+
+.navmenu{
+  list-style: none;
+  margin: 25px;
+  display: flex;
+  line-height: 10px;
+  justify-content: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.canal {
+  text-decoration: none;
+  text-decoration-line: none;
+  color:black;
+}
+
+.infocanal {
+  margin: 35px auto;
+  width: 250px;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.infocanal:hover {
+  box-shadow: 1rem 2rem 3rem rgba(0, 0, 0, 0.4);
+  background-color:darkgray
+}
+
+.logo:hover {
+  cursor:pointer;
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 1);
+  background-color:darkgray ;
+}
+
+.logo2:hover,.logo3:hover {
+  cursor:pointer;
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 1);
+  background-color:darkgray ;
+}
